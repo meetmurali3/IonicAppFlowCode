@@ -18,7 +18,7 @@ export class GroceriesServiceService {
   items: any= [];
   dataChanged$ : Observable<boolean>;
   private dataChangeSubject: Subject<boolean>;
-  baseURL = 'http://afternoon-sierra-93656.herokuapp.com';
+  baseURL = 'https://afternoon-sierra-93656.herokuapp.com';
    
   
   getItems(): Observable<any> {
